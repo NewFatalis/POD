@@ -48,7 +48,7 @@
                 <span class="mini-stat-icon"><i class="ion-person-stalker"></i></span>
                 <div class="mini-stat-info text-right">
                     <span class="counter">20544</span>
-                    Number of Users in
+                    Number of Users
                 </div>
                 <div class="tiles-progress">
                     <div class="m-t-20">
