@@ -1,9 +1,7 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: davet
- * Date: 30/12/2017
- * Time: 9:31 AM
+ * Date: 2/4/2018
+ * Time: 11:31 PM
  */
 
 namespace App\Http\Controllers;
@@ -353,7 +351,7 @@ class ReportController extends Controller
             $year = $arr[0];
             $sample = $newformat;
             $month = substr($yearmonth, strpos($yearmonth, "-") + 1);
-//            $sample = date_format($dave, 'g:ia \o\n l jS F Y');
+//            $sample = date_format($ojohnbert, 'g:ia \o\n l jS F Y');
             $results = DB::table("offenses")
                 ->join('students', 'students.student_id', '=', 'offenses.student_id')
                 ->join('sections','students.section_id', '=', 'sections.id')
