@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    font: normal 75% Arial, Helvetica, sans-serif;
+}
+
+canvas {
+    display: block;
+    vertical-align: top;
+}
+
+
+/* ---- particles.js container ---- */
+
+#particles-js, body {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #614143;
+    background-image: url("http://wall.wallrage.com/wp-content/uploads/Cute-Robot-Desktop-Background-Wallpapers.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
